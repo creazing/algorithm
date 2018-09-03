@@ -1,4 +1,4 @@
-package seach;
+package leetcode.seach;
 
 public class BinarySearch {
     public static int lower_bound(int[] A, int first, int last, int target) {
