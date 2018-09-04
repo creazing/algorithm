@@ -1,4 +1,4 @@
-package niuke.BinaryTree;
+package BinaryTree.niuke;
 
 /**
  * 后续遍历的最后一个节点是根节点，前面部分肯定能分为小于根节点和

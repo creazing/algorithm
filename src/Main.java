@@ -1,4 +1,4 @@
-import niuke.BinaryTree.reConstructBinaryTree;
+import BinaryTree.niuke.reConstructBinaryTree;
 
 public class Main {
 

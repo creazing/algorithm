@@ -1,10 +1,11 @@
-package niuke.BinaryTree;
+package BinaryTree.niuke;
+
 /**
  * 给定中序遍历和先序遍历重构二叉树
  * 每次创创建根节点，递归的遍历左子树和右子树
  */
 public class reConstructBinaryTree {
-    public  TreeNode reConstructBinaryTree(int [] pre,int [] in) {
+    public TreeNode reConstructBinaryTree(int [] pre, int [] in) {
         TreeNode root=reConstructBinaryTree(pre,0,pre.length-1,in,0,in.length-1);
         return root;
     }

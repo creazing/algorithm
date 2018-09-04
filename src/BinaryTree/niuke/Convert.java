@@ -1,4 +1,4 @@
-package niuke.BinaryTree;
+package BinaryTree.niuke;
 
 /**
  * 输入一棵二叉搜索树，将该二叉搜索树转换成一个排序的双向链表。

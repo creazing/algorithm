@@ -1,4 +1,4 @@
-package niuke.BinaryTree;
+package BinaryTree.niuke;
 
 import java.util.LinkedList;
 import java.util.Queue;

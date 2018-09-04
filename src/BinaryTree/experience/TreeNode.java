@@ -1,4 +1,5 @@
-package niuke.BinaryTree;
+package BinaryTree.experience;
+
 public class TreeNode {
     int val;
     TreeNode left;

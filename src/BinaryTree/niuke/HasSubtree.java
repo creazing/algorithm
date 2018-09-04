@@ -1,11 +1,11 @@
-package niuke.BinaryTree;
+package BinaryTree.niuke;
 
 /**
  * 相当于先序遍历该树，每次先判断根节点再递归判断子节点
  * 判断是否是子树的时候也是递归调用
  */
 public class HasSubtree {
-    public boolean HasSubtree(TreeNode root1,TreeNode root2) {
+    public boolean HasSubtree(TreeNode root1, TreeNode root2) {
         if(root1==null || root2 == null)
             return false;
         boolean result = false;
