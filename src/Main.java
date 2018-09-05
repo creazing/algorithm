@@ -1,10 +1,10 @@
 import BinaryTree.niuke.reConstructBinaryTree;
 
 public class Main {
-
     public static void main(String[] args) {
-
-        System.out.println(reConstructBinaryTree.reConstructBinaryTree());
-        System.out.println("Hello World!");
+       char[] ch = new char[]{'a','b'};
+       int a = ch[0]-'a';
+       System.out.println(a);
     }
+
 }

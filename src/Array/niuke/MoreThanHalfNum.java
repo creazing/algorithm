@@ -30,3 +30,4 @@ public class MoreThanHalfNum {
         return 0;
     }
 }
+

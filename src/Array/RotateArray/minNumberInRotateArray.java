@@ -1,4 +1,4 @@
-package Array.niuke;
+package Array.RotateArray;
 
 /**
  * 题目：把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。
@@ -8,7 +8,7 @@ package Array.niuke;
  * 思路1：遍历查找逆序位置
  * 思路2：二分查找，如果右侧递增则最小值肯定再包含中间节点的左边，如果左侧递增
  * 则最小值肯定再不包括中间值的右侧，当想着相等时右侧左移
- * 一定要先右侧
+ * 一定要先右侧,因为某侧递增要把最小值野包含进去，但是如果用左侧判断的话无法将其包含进去
  */
 public class minNumberInRotateArray {
     public int minNumberInRotateArray(int[] nums) {
