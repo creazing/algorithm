@@ -30,7 +30,7 @@ public class Permutation {
     private void Permutation(String str,int k,ArrayList<String> list){
         if(k<str.length()-1){
             int len = list.size();
-            for(int i = 0;i<len;i++){
+            for(int i = 0;i<len;i++){//遍历结果中原有的排列
                 String tmp = list.get(i);
                 for(int j = k+1;j<str.length();j++){
                     StringBuffer sb = new  StringBuffer(tmp);

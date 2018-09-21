@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.Stack;
 
 /**
- *先序遍历如果是叶节点则判断是否满足，如果不是则入栈，，左右节点访问完则出栈
+ *先序遍历如果是叶节点则判断是否满足，如果不是则入栈，左右节点访问完则出栈
  * tip：这么做栈里的元素（不包括叶节点）是一条通路
+ * 利用栈，先序遍历不是叶节点则入栈，是叶节点则入栈再出栈则栈中元素就是一个通路
  */
 public class FindPath {
     public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
